@@ -7,7 +7,6 @@ const SideLayout = ({ children }) => {
         <h1 className="font-bold text-3xl font-Inter">Fundify</h1>
       </div>
       <div className="flex flex-row h-screen max-h-full">
-        {/* Left Section - Hidden on Mobile */}
         <div className="hidden md:flex w-1/2 h-full text-white items-center justify-center relative">
           <div className="h-screen pt-24 z-50">
             <img
@@ -18,7 +17,6 @@ const SideLayout = ({ children }) => {
           </div>
         </div>
 
-        {/* Right Section - Full Width on Mobile */}
         <div className="w-full md:w-1/2 max-h-full h-screen bg-[#141414] text-black overflow-y-auto">
           {children}
         </div>
