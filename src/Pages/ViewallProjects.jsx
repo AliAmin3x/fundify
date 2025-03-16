@@ -1,10 +1,10 @@
-import Header from "./Layout/Header";
 import ExploreCampaigns from "./ExploreCampaigns";
 import FooterLayout from "./Layout/FooterLayout";
+import HeaderLayout from "./Layout/HeaderLayout";
 export default function ViewallProjects() {
   return (
     <main>
-      <Header />
+      <HeaderLayout />
       <ExploreCampaigns />
       <FooterLayout />
     </main>

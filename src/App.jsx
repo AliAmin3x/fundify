@@ -11,7 +11,7 @@ import CookiePolicy from "./Pages/CookiePolicy";
 import TrustSafety from "./Pages/TrustSafety";
 import FAQs from "./Pages/FAQs";
 import Home from "./Pages/Home";
-import ExploreCampaigns from "./Pages/ExploreCampaigns";
+import ViewallProjects from "./Pages/ViewallProjects";
 
 function App() {
   return (
@@ -29,8 +29,7 @@ function App() {
         <Route path="/trust-safety" element={<TrustSafety />} />
         <Route path="/faq" element={<FAQs />} />
         <Route path="/homepage" element={<Home />} />
-        <Route path="/explore" element={<ExploreCampaigns />} />
-
+        <Route path="/explore" element={<ViewallProjects/>} />
       </Routes>
     </Router>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeaderLayout = () => {
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
+    <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md w-full fixed top-0">
       
       {/* Left Side - Logo & Navigation */}
       <div className="flex items-center space-x-6"> {/* CHANGED: Wrapped logo & nav in a div */}
